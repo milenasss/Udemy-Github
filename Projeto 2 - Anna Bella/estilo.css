@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 0px;
+}
+
+body {
+    background-image: url('imagens/fundo.png');
+    background-size: 300px;
+    font-family: Tahoma, sans-serif;
+}
+
+#conteudo {
+    width: 970px;
+    background: #D2D2C0;
+    margin: 0px auto;
+    border: 5px solid white;
+}
+
+#img-header {
+    width: 960px;
+    margin: 0px;
+    margin-bottom: -3px;
+}
+
+.caixa-nav {
+    width: 320px;
+    background: #91917C;
+    float: left;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+nav a:link, nav a:visited {
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    border: 2px solid white;
+}
+
+nav a:active {
+    background: white;
+    color: #91917C;
+}
+
+main {
+    clear: both;
+    background: #D2D2C0;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 3em;
+    font-weight: normal;
+    color: #91917C;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #69695a;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+h4 {
+    font-weight: normal;
+    font-style: italic;
+    color: #91917C;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+}
+
+.outset {
+    border: 5px outset white;
+}
+
+.inset {
+    border: 5px inset white;
+}
+
+form {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+}
+
+#input-text {
+    width: 920px;
+    background: #E8E8D9;
+    font-size: 1em;
+    text-align: center;
+    border: 5px solid #C5C5B2;
+}
+
+select {
+    height: auto;
+    background: #E8E8D9;
+    font-size: 1em;
+    text-align: center;
+    border: 5px solid #C5C5B2;
+}
+
+.radio {
+    font-size: 1em;
+    color: black;
+    display: inline;
+}
+
+textarea {
+    width: 920px;
+    height: 150px;
+    background: #E8E8D9;
+    font-size: 1em;
+    text-align: justify;
+    border: 5px solid #C5C5B2;
+}
+
+#botao {
+    width: 920px;
+    text-align: center;
+    margin: 25px 0px 10px 0px;
+}
+
+#submit {
+    background: #C5C5B2;
+    font-size: 1em;
+    text-align: center;
+    padding: 15px 30px;
+}

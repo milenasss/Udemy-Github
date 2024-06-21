@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contato</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+    <body>
+        <div id="conteudo">
+            <header>
+                <img src="imagens/capa.png" id="img-header">
+                <nav>
+                    <div class="caixa-nav">
+                        <a href="index.html">Home</a>
+                    </div>
+
+                    <div class="caixa-nav">
+                        <a href="campanhas-publicitarias.html">Campanhas publicitárias</a>
+                    </div>
+                    
+                    <div class="caixa-nav">
+                        <a href="contato.html">Contato</a>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <h1>Contato</h1>
+                <form>
+                    <p>Nome</p>
+                    <input type="text" id="input-text"><br><br>
+
+                    <p>Estado</p>
+                        <select>
+                            <option>Selecione</option>
+                            <option>SP</option>
+                            <option>RJ</option>
+                            <option>MG</option>
+                        </select><br><br>
+
+                    <p>Interesse</p>
+                    <input type="radio" name="interesse" value="foto">
+                        <p class="radio">Foto</p><br>
+                    <input type="radio" name="interesse" value="foto">
+                        <p class="radio">Vídeo</p><br><br>
+                    
+                    <p>Mensagem</p>
+                    <textarea></textarea>
+
+                    <div id="botao">
+                        <input type="submit" value="Enviar" id="submit">
+                    </div>
+                </form>
+            </main>
+            <footer>
+                <h4>Todos os direitos reservados</h4>
+            </footer>
+        </div>
+    </body>
+</html>

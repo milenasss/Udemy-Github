@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+    border: 0px;
+}
+
+body {
+    background: #E6E6E6;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+header {
+    background: #F7B600;
+    padding: 20px 0px;
+}
+
+#logo {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#tec {
+    color: #4E4E4E;
+}
+
+#blog {
+    color: white;
+}
+
+#nav-header {
+    font-weight: bold;
+    text-align: center;
+}
+
+.a-header {
+    padding: 10px 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav-header a:link, #nav-header a:visited {
+    color: white;
+}
+
+#nav-header a:hover, #nav-header a:active {
+    color: #F7B600;
+    background: white;
+}
+
+main {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#postagens {
+    width: 700px;
+    float: left;
+}
+
+article {
+    background: white;
+    width: 660px;
+    margin: 15px 0px;
+    padding: 20px;
+}
+
+h2 {
+    color: #F7B600;
+    text-align: center;
+}
+
+.data {
+    font-size: 0.75em;
+    font-style: italic;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+img {
+    width: 640px;
+    border: 10px solid #4E4E4E;
+    margin: 15px 0px;
+}
+
+p {
+    text-align: justify;
+}
+
+main a:link, main a:visited {
+    color: #F7B600;
+}
+
+main a:hover, main a:active {
+    text-decoration: underline;
+}
+
+aside {
+    width: 285px;
+    float: right;
+}
+
+.caixa-lateral {
+    background: white;
+    margin: 15px 0px;
+    padding: 20px;
+}
+
+h3 {
+    background: #CCCCCC;
+    color: #4E4E4E;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+hr {
+    border: 1px dashed #4E4E4E;
+    margin: 10px 0px;
+}
+
+#categorias a:link, #categorias a:visited {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #F7B600;
+    display: block;
+    margin-top: 10px;
+}
+
+#categorias a:hover, #categorias a:active {
+    text-decoration: underline;
+}
+
+footer {
+    clear: both;
+    width: 1000px;
+    background: #CCCCCC;
+    text-align: center;
+    margin: 15px auto;
+    padding: 10px;
+}
