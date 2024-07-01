@@ -1,0 +1,299 @@
+/* Declarações gerais */
+
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font: 14px "Trebuchet MS", Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 750px;
+    margin: 0px auto;
+}
+
+.caixa {
+    background: #F8F8F8 url('imagens/fundo-caixa.png');
+    float: left;
+    padding: 5px;
+    margin: 15px 0px 0px 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Cabeçalho */
+
+header {
+    background: #294C71 url('imagens/fundo.png') repeat-x;
+    height: 233px;
+}
+
+header .container {
+    height: 190px;
+    background: url('imagens/detalhe-topo.png') no-repeat right;
+}
+
+#logo {
+    width: 152px;
+    height: 116px;
+    background: url('imagens/logo.png') no-repeat center;
+    text-indent: -1920px;
+}
+
+header li {
+    background: #B10333;
+    float: left;
+}
+
+header a {
+    display: block;
+    background: url('imagens/divisor.png') no-repeat left center;
+    color: white;
+    padding: 15px 21px;
+}
+
+#primeiro-nav {
+    background: none;
+}
+
+header a:hover {
+    color: #69001D;
+}
+
+#home header nav a[href="index.html"],
+#brasil header nav a[href="brasil.html"],
+#internacional header nav a[href="internacional.html"],
+#economia header nav a[href="economia.html"],
+#saude header nav a[href="saude.html"],
+#ciencia header nav a[href="ciencia.html"],
+#fotos header nav a[href="fotos.html"] {
+    background: #DE003E;
+    cursor: text;
+}
+
+/* Principal */
+
+#noticias {
+    width: 570px;
+    float: right;
+}
+
+main .caixa {
+    width: 270px;
+}
+
+article {
+    background: white;
+    padding: 5px;
+}
+
+#home article:hover {
+    background: #EEEEEE;
+    cursor: pointer;
+}
+
+h3 {
+    background: #B10333;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+    padding: 2.5px;
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    border: 3px solid #DFDFDF;
+}
+
+p {
+    text-align: justify;
+}
+
+.leia-mais {
+    text-decoration: underline;
+    color: #DE003E;
+    display: inline;
+}
+
+.leia-mais:hover {
+    color: #B10333;
+}
+
+#noticias-recentes .caixa {
+    width: 555px;
+}
+
+#noticias-recentes article {
+    height: 80px;
+    background: white;
+    padding: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.500);
+}
+
+article#ultima-noticia {
+    border-bottom: none;
+}
+
+#noticias-recentes article img {
+    width: 90px;
+    float: left;
+    border: none;
+}
+
+#noticias-recentes h3 {
+    background: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #3E7AB9;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.texto-noticia {
+    width: 425px;
+    font-size: 10px;
+    float: right;
+}
+
+/* Lateral */
+
+aside {
+    width: 180px;
+    float: left;
+}
+
+aside .caixa {
+    width: 180px;
+    margin-left: 0px;
+}
+
+h2 {
+    background: #294C71;
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+aside ul {
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+aside li {
+    width: 160px;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.225);
+}
+
+#ultima-entrevista {
+    border: none;
+}
+
+aside li:hover {
+    background: #EEEEEE url('imagens/marcador.png') no-repeat left center;
+    font-weight: bold;
+    color: #A1A1A1;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+form {
+    background: white;
+    padding: 5px;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    width: 160px;
+    padding: 5px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    background: #B10333;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background: #DE003E;
+    cursor: pointer;
+}
+
+#centralizar {
+    text-align: center;
+}
+
+/* Rodapé */
+
+footer {
+    background: #294C71;
+    margin-top: 15px;
+}
+
+h5 {
+    width: 750px;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 50px;
+    margin: 0px auto;
+}
+
+/* Página "Nova legislação" */
+
+#brasil .caixa {
+    width: 750px;
+    padding: 10px;
+    margin: 15px 0px 0px 0px;
+}
+
+#brasil article {
+    padding: 10px;
+}
+
+#brasil h3 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 0px;
+}
+
+#brasil img {
+    margin: 10px 0px;
+}
+
+#brasil p {
+    font-size: 20px;
+    line-height: 25px;
+    text-indent: 30px;
+    padding: 0px 3px 10px 3px;
+}
+
+p#ultimo-p {
+    padding-bottom: 0px;
+}

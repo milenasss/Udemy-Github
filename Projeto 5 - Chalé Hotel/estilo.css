@@ -1,0 +1,202 @@
+/* Declarações gerais */
+
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F0F0F0 url('imagens/bg.png');
+    font-family: Helvetica, "Trebuchet MS", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    color: #4D461B;
+    text-align: justify;
+}
+
+#container {
+    min-width: 740px;
+    max-width: 1180px;
+    background: #EFEACC url('imagens/bg-container.png') top center repeat-y;
+    margin: 0px auto;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Cabeçalho */
+
+header {
+    height: 250px;
+    position: relative;
+}
+
+#esquerda-header {
+    width: 100%;
+    height: 250px;
+    background: #FDF4BE url('imagens/topo-imagem-principal.png');
+    position: absolute;
+}
+
+h1 a {
+    display: block;
+    width: 151px;
+    height: 66px;
+    background: url('imagens/logo.png');
+    text-indent: -1920px;
+    margin: 15px 0px 0px 15px;
+}
+
+#direita-header {
+    width: 450px;
+    height: 250px;
+    background: url('imagens/topo-imagem-lateral.png');
+    position: absolute;
+    right: 0;
+}
+
+#menu {
+    margin: 15px 15px 15px 100px;
+}
+
+#reservas {
+    font-size: 12px;
+    padding: 5px 0px;
+    border-top: 1px solid #A29750;
+    border-bottom: 1px solid #A29750;
+    position: relative;
+}
+
+#reservas span {
+    color: #A29750;
+    line-height: 24px;
+}
+
+#reservas a {
+    background: #A29750;
+    text-transform: uppercase;
+    color: #FDF4BE;
+    padding: 5px 10px;
+    position: absolute;
+    right: 0;
+}
+
+#menu nav {
+    position: absolute;
+    bottom: 12px;
+}
+
+#menu li a {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #A29750;
+    line-height: 35px;
+    padding: 5px;
+}
+
+#menu li a:hover {
+    background: #FDF4BE;
+}
+
+#menu img {
+    position: absolute;
+    right: 15px;
+    bottom: 17px;
+}
+
+/* Principal */
+
+main {
+    margin-top: -2.5px;
+}
+
+article {
+    width: 50%;
+    background: #EFEACC url('imagens/bg-area-principal.png') repeat-x;
+    padding: 25px 20px 20px 20px;
+    float: left;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #A29750;
+}
+
+article p {
+    text-indent: 20px;
+    padding-top: 5px;
+}
+
+/* Lateral */
+
+aside {
+    width: 50%;
+    background: #DED9B7 url('imagens/bg-area-lateral.png') repeat-x;
+    padding: 20px 20px 12.5px 20px;
+    float: right;
+}
+
+aside li {
+    height: 115px;
+    padding: 10px;
+    border-bottom: 1px solid #FDF4BE;
+    position: relative;
+}
+
+#ultimo-aside {
+    border-bottom: none;
+}
+
+aside li:hover {
+    background: #FCF4BE;
+}
+
+aside img {
+    width: 150px;
+    height: 95px;
+    position: absolute;
+}
+
+.texto-aside {
+    padding: 0px 10px;
+    position: absolute;
+    left: 155px;
+}
+
+h3 {
+    background: url('imagens/ornamento.png') no-repeat right;
+    font-size: 16px;
+    color: #A29750;
+}
+
+aside p {
+    font-size: 13px;
+}
+
+/* Rodapé */
+
+footer {
+    background: white url('imagens/bg-rodape.png') repeat-x;
+    padding: 25px 20px 20px 20px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+    color: #A29750;
+    text-align: center;
+}
