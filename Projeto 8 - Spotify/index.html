@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <!-- HTML5 Shiv -->
+    <!--[if lt IE 9]>
+	    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
+
+  <link rel="icon" href="imagens/favicon.png">
+  <title>Spotify - Música para todos</title>
+</head>
+<header>
+  <nav class="navbar navbar-expand-md fixed-top p-3">
+    <div class="container"> <!-- container cabeçalho -->
+      <a href="" class="navbar-brand">
+        <img src="imagens/spotify.svg">
+      </a>
+
+      <button class="navbar-toggler border rounded" data-toggle="collapse" data-target="#nav-header">
+        <i class="fa-solid fa-bars text-white"></i>
+        <span class="sr-only">Barra de navegação</span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav-header"> <!-- lista nav header-->
+        <ul class="navbar-nav ml-auto">
+          <li><a href="" class="nav-link text-white">Premium</a></li>
+          <li><a href="" class="nav-link text-white">Ajuda</a></li>
+          <li><a href="" class="nav-link text-white">Baixar</a></li>
+          <li id="divisor" class="bg-white"></li>
+          <li><a href="" class="nav-link text-white">Inscrever-se</a></li>
+          <li><a href="" class="nav-link text-white">Entrar</a></li>
+        </ul>
+      </div> <!-- /lista nav header -->
+    </div> <!-- /container cabeçalho -->
+  </nav>
+</header>
+<main>
+  <section id="home" class="d-flex align-items-center">
+    <div class="container"> <!-- container seção home -->
+        <div id="carousel-spotify" class="carousel slide text-center" data-ride="carousel"> <!-- carousel -->
+          <div class="carousel-inner"> <!-- carousel inner -->
+            <div class="carousel-item active"> <!-- carousel item 1 -->
+              <h1 class="text-white">Música para todos</h1>
+              <div id="quebrar-botoes"> <!-- botões -->
+                <div><a href="" id="botao-roxo" class="btn btn-lg text-uppercase text-white pt-2 pb-2 pr-4 pl-4 botao-home">Aproveite o Spotify Free</a></div>
+                <div><a href="" id="botao-branco" class="btn btn-lg text-uppercase text-white pt-2 pb-2 pr-4 pl-4 botao-home">Obter o Spotify Premium</a></div>
+              </div> <!-- /botões -->
+            </div> <!-- /carousel item 1 -->
+
+            <div class="carousel-item"> <!-- carousel item 2 -->
+              <h1 class="text-white pr-5 pl-5">As melhores rádios</h1>
+              <a href="" id="botao-branco" class="btn btn-lg text-uppercase text-white pt-2 pb-2 pr-4 pl-4 botao-home">
+                <i class="fa-solid fa-music pr-3"></i>Ouça agora
+              </a>
+            </div> <!-- /carousel item 2 -->
+          </div> <!-- /carousel inner -->
+
+          <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev">
+            <i class="fa-solid fa-angle-left fa-2xl"></i>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a href="#carousel-spotify" class="carousel-control-next" data-slide="next">
+            <i class="fa-solid fa-angle-right fa-2xl"></i>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div> <!-- /carousel -->
+    </div> <!-- /container seção home -->
+  </section>
+  <section id="servicos" class="bg-white p-3">
+    <div class="container"> <!-- container seção serviços -->
+      <div class="row d-flex align-items-center"> <!-- row seção serviços -->
+        <div class="col-md-6"> <!-- álbuns -->
+          <div class="row"> <!-- linha 1 seção álbuns -->
+            <div class="col-6 p-0 pr-2 pb-2">
+              <img src="imagens/img1.jpg" class="img-fluid">
+            </div>
+            <div class="col-6 p-0 pl-2 pb-2">
+              <img src="imagens/img2.jpg" class="img-fluid">
+            </div>
+          </div> <!-- /linha 1 seção álbuns -->
+          <div class="row"> <!-- linha 2 seção álbuns -->
+            <div class="col-6 p-0 pr-2 pt-2">
+              <img src="imagens/img3.jpg" class="img-fluid">
+            </div>
+            <div class="col-6 p-0 pl-2 pt-2">
+              <img src="imagens/img4.jpg" class="img-fluid">
+            </div>
+          </div> <!-- /linha 2 seção álbuns -->
+        </div> <!-- /álbuns -->
+        <div id="texto-servicos" class="col-md-6 text-justify"> <!-- textos seção servicos -->
+          <h2 class="text-left">O que o Spotify tem?</h2>
+
+          <h3>Músicas</h3>
+          <p>O Spotify tem milhões de músicas. Escute seus sons favoritos, descubra novas músicas e reúna seus favoritos em um só lugar.</p>
+
+          <h3>Playlists</h3>
+          <p>No Spotify você encontra uma playlist para cada momento. Todas feitaas por fanáticos e especialistas da música.</p>
+
+          <h3>Novos lançamentos</h3>
+          <p class="mb-0">Escute os novos lançamentos de singles e álbuns da semana e veja o que está bombando no Top 50.</p>
+        </div> <!-- /textos seção sevicos -->
+      </div> <!-- /row seção servicos -->
+    </div> <!-- /container seção serviços -->
+  </section>
+  <section id="recursos" class="p-3">
+    <div class="container"> <!-- container seção recursos -->
+      <div class="row d-flex align-items-center justify-content-center"> <!-- row seção recursos -->
+        <div id="texto-recursos" class="col-md-4 text-justify text-white"> <!-- textos seção recursos -->
+          <h2>Fácil</h2>
+          <h3>Buscar</h3>
+          <p>Já sabe o que quer escutar? É só procurar e apertar o play.</p>
+          <h3>Navegar</h3>
+          <p>Veja os novos lançamentos, o que está bombando nas paradas e as melhores playlists para o seu momento.</p>
+          <h3>Descobrir</h3>
+          <p class="mb-0">Curta músicas novas toda segunda-feira com uma playlist personalizada pra você. Ou relaxe e curta uma das rádios.</p>
+        </div> <!-- /textos seção recursos -->
+        <div class="col-md-8 d-flex align-items-center justify-content-center"> <!-- iphones -->
+          <img src="imagens/iphone1.png" width="300" class="img-fluid d-lg-none rotacao"> <!-- 1 iphone -->
+          <div class="row rotacao d-none d-lg-flex"> <!-- 2 iphones -->
+            <div class="col-lg-6">
+              <img src="imagens/iphone1.png" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+              <img src="imagens/iphone2.png" class="img-fluid">
+            </div>
+          </div> <!-- /2 iphones -->
+        </div> <!-- /iphones -->
+      </div> <!-- /row seção recursos -->
+    </div> <!-- /container seção recursos -->
+  </section>
+  <footer class="pt-5 pb-5 position-relative">
+    <nav>
+      <div class="container"> <!-- container rodapé -->
+        <div class="row d-none d-lg-flex"> <!-- row rodapé d-lg -->
+          <div class="col-3 d-flex justify-content-center align-items-center"> <!-- logo rodapé d-lg -->
+            <img src="imagens/spotify.svg">
+          </div> <!-- /logo rodapé d-lg -->
+
+          <div class="col-6 d-flex justify-content-between"> <!-- links d-lg -->
+            <div class="d-flex justify-content-center"> <!-- centralizar links d-lg -->
+              <div>
+                <h4>Company</h4>
+                <ul class="navbar-nav">
+                  <li><a href="" class="nav-link text-white p-0">Sobre</a></li>
+                  <li><a href="" class="nav-link text-white p-0">Empregos</a></li>
+                  <li><a href="" class="nav-link text-white p-0">Imprensa</a></li>
+                  <li><a href="" class="nav-link text-white p-0">Novidades</a></li>
+                </ul>
+              </div>
+            </div> <!-- /centralizar links d-lg -->
+            <div class="d-flex justify-content-center"> <!-- centralizar links d-lg -->
+              <div>
+                <h4>Comunidades</h4>
+                <ul class="navbar-nav">
+                  <li><a href="" class="nav-link text-white p-0">Artistas</a></li>
+                  <li><a href="" class="nav-link text-white p-0">Desenvolvedores</a></li>
+                  <li><a href="" class="nav-link text-white p-0">Marcas</a></li>
+                </ul>
+              </div>
+            </div> <!-- /centralizar links d-lg -->
+            <div class="d-flex justify-content-center"> <!-- centralizar links d-lg -->
+              <div>
+                <h4>Links úteis</h4>
+                <ul class="navbar-nav">
+                  <li><a href="" class="nav-link text-white p-0">Ajuda</a></li>
+                  <li><a href="" class="nav-link text-white p-0">Presentes</a></li>
+                  <li><a href="" class="nav-link text-white p-0">Player da Web</a></li>
+                </ul>
+              </div>
+            </div> <!-- /centralizar links d-lg -->
+          </div> <!-- /links d-lg -->
+
+          <div class="col-3 d-flex justify-content-center align-items-center p-0"> <!-- redes sociais d-lg -->
+            <ul id="redes-sociais" class="d-flex p-0 m-0">
+              <span class="sr-only">Redes sociais</span>
+              <li>
+                <a href="" class="text-white rounded-circle d-flex justify-content-center align-items-center">
+                  <i class="fa-brands fa-facebook-f fa-xl"></i>
+                  <span class="sr-only">Facebook</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white rounded-circle d-flex justify-content-center align-items-center">
+                  <i class="fa-brands fa-instagram fa-xl"></i>
+                  <span class="sr-only">Instagram</span>
+                </a>
+              </li>
+              <li>
+                <a href=""  class="text-white rounded-circle d-flex justify-content-center align-items-center">
+                  <i class="fa-brands fa-twitter fa-xl"></i>
+                  <span class="sr-only">Twitter</span>
+                </a>
+              </li>
+            </ul>
+          </div> <!-- /redes sociais d-lg -->
+        </div> <!-- /row rodapé d-lg -->
+
+        <div id="rodape" class="d-lg-none d-flex flex-column"> <!-- rodapé d-sm -->
+          <div class="d-flex justify-content-between"> <!-- linha 1 rodapé d-sm -->
+            <div class="d-flex justify-content-center"> <!-- centralizar links d-sm -->
+              <div>
+                <h4>Company</h4>
+                <ul class="navbar-nav">
+                  <li><a href="" class="nav-link text-white p-0">Sobre</a></li>
+                  <li><a href="" class="nav-link text-white p-0">Empregos</a></li>
+                  <li><a href="" class="nav-link text-white p-0">Imprensa</a></li>
+                  <li><a href="" class="nav-link text-white p-0">Novidades</a></li>
+                </ul>
+              </div>
+            </div> <!-- /centralizar links d-sm -->
+            <div class="d-flex justify-content-center"> <!-- centralizar links d-sm -->
+              <div>
+                <h4>Comunidades</h4>
+                <ul class="navbar-nav">
+                  <li><a href="" class="nav-link text-white p-0">Artistas</a></li>
+                  <li><a href="" class="nav-link text-white p-0">Desenvolvedores</a></li>
+                  <li><a href="" class="nav-link text-white p-0">Marcas</a></li>
+                </ul>
+              </div>
+            </div> <!-- /centralizar links d-sm -->
+            <div class="d-flex justify-content-center"> <!-- centralizar links d-sm -->
+              <div>
+                <h4>Links úteis</h4>
+                <ul class="navbar-nav">
+                  <li><a href="" class="nav-link text-white p-0">Ajuda</a></li>
+                  <li><a href="" class="nav-link text-white p-0">Presentes</a></li>
+                  <li><a href="" class="nav-link text-white p-0">Player da Web</a></li>
+                </ul>
+              </div>
+            </div> <!-- /centralizar links d-sm -->
+          </div> <!-- /linha 1 rodapé d-sm -->
+
+          <div class="d-flex justify-content-between"> <!-- linha 2 rodapé d-sm -->
+            <img src="imagens/spotify.svg"> <!-- logo rodapé d-sm -->
+            <ul id="redes-sociais" class="d-flex p-0 m-0"> <!-- redes sociais d-sm -->
+              <span class="sr-only">Redes sociais</span>
+              <li>
+                <a href=""
+                  class="text-white rounded-circle d-flex justify-content-center align-items-center">
+                  <i class="fa-brands fa-facebook-f fa-xl"></i>
+                  <span class="sr-only">Facebook</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white rounded-circle d-flex justify-content-center align-items-center">
+                  <i class="fa-brands fa-instagram fa-xl"></i>
+                  <span class="sr-only">Instagram</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white rounded-circle d-flex justify-content-center align-items-center">
+                  <i class="fa-brands fa-twitter fa-xl"></i>
+                  <span class="sr-only">Twitter</span>
+                </a>
+              </li>
+            </ul> <!-- /redes sociais d-sm -->
+          </div> <!-- /linha 2 rodapé d-sm -->
+        </div> <!-- /rodapé d-sm -->
+      </div> <!-- /container rodapé -->
+    </nav>
+  </footer>
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</main>
+</html>

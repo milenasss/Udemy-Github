@@ -1,0 +1,260 @@
+/* Declarações gerais */
+
+html, body, #home {
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  background: url('../imagens/capa.png'),
+    url('../imagens/ruido.png'),
+    -webkit-gradient(linear, left top, right top, from(#ff4169), to(#7c26f8));
+  background: url('../imagens/capa.png'),
+    url('../imagens/ruido.png'),
+    -o-linear-gradient(left, #ff4169, #7c26f8);
+  background: url('../imagens/capa.png'),
+    url('../imagens/ruido.png'),
+    linear-gradient(to right, #ff4169, #7c26f8);
+  background-attachment: fixed;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+img[src="imagens/spotify.svg"] {
+  width: 150px;
+}
+
+a.nav-link:hover {
+  color: #9bf0e1 !important;
+}
+
+
+/* Cabeçalho */
+
+header nav {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+button.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+#divisor {
+  width: 0.1em;
+  margin: 0.7em;
+}
+
+/* Principal */
+
+h1 {
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  margin-bottom: 0.5em;
+}
+
+.botao-home {
+  border-radius: 2em;
+  -webkit-transition: background 0.5s, color 0.5s;
+  -o-transition: background 0.5s, color 0.5s;
+  transition: background 0.5s, color 0.5s;
+}
+
+#botao-roxo {
+  background: #7c26f8;
+}
+
+#botao-roxo:hover {
+  background: #6207E3;
+}
+
+#botao-branco {
+  border: 0.1em solid;
+}
+
+#botao-branco:hover {
+  background: white;
+  color: black !important;
+  border-color: white;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 5%;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+#servicos h2, #servicos h3 {
+  color: #7C25F8;
+}
+
+#recursos h2 {
+  color: white
+}
+
+#recursos h3 {
+  color: #9BF0E1;
+}
+
+.rotacao {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+  padding-left: 80px;
+}
+
+/* Rodapé */
+
+footer,
+h4 {
+  background: black;
+  font-size: 0.9em;
+}
+
+h4 {
+  text-transform: uppercase;
+  color: #919496;
+  margin: 0;
+}
+
+#redes-sociais {
+  gap: 0.5em;
+}
+
+#redes-sociais a {
+  width: 50px;
+  height: 50px;
+  background: #202020;
+  text-decoration: none;
+}
+
+footer ul {
+  list-style: none;
+}
+
+#rodape {
+  gap: 1em;
+}
+
+/* Media queries */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  img[src="imagens/spotify.svg"] {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .botao-home {
+    font-size: 0.8em;
+    margin: 5px;
+  }
+
+  #texto-servicos {
+    padding: 0.5em 0 0 0;
+  }
+
+  #texto-recursos {
+    padding: 0;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  img[width="300"].rotacao {
+    padding: 2em 0 0 0;
+    margin-bottom: -3.2em;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  .botao-home {
+    margin: 5px;
+  }
+
+  #texto-servicos {
+    padding: 0.5em 0 0 0;
+  }
+
+  #texto-recursos {
+    padding: 0;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  img[width="300"].rotacao {
+    padding: 2em 0 0 0;
+    margin-bottom: -3em;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  h1 {
+    font-size: 4em;
+  }
+
+  #quebrar-botoes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  h1 {
+    font-size: 5em;
+  }
+
+  #quebrar-botoes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 6em;
+  }
+
+  #quebrar-botoes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}
